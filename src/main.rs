@@ -8,6 +8,9 @@ pub mod day_7;
 pub mod day_8;
 pub mod day_9;
 pub mod day_10;
+pub mod day_11;
+pub mod day_12;
+pub mod day_13;
 
 pub fn main() {
     println!("Answer day 1a: {}", day_1::day_1a());
@@ -30,4 +33,9 @@ pub fn main() {
     println!("Answer day 9b: {}", day_9::day_9b());
     println!("Answer day 10a: {}", day_10::day_10a());
     println!("Answer day 10b: {}", day_10::day_10b());
+    println!("Answer day 11a: {}", day_11::day_11a());
+    println!("Answer day 11b: {}", day_11::day_11b());
+    println!("Answer day 12a: {}", day_12::day_12a());
+    println!("Answer day 12b: {}", day_12::day_12b());
+    println!("Answer day 13a: {}", day_13::day_13a());
 }
